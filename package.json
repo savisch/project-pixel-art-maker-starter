@@ -1,0 +1,19 @@
+{
+  "name": "project-pixel-art-maker-starter",
+  "version": "1.0.0",
+  "description": "Udacity Final JS Project",
+  "main": "designs.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/savisch/project-pixel-art-maker-starter.git"
+  },
+  "author": "Scott G",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/savisch/project-pixel-art-maker-starter/issues"
+  },
+  "homepage": "https://github.com/savisch/project-pixel-art-maker-starter#readme"
+}
