@@ -6,6 +6,8 @@ colorPick.addEventListener('change', function(){
     color = document.getElementById('colorPicker').value;
 });
 
+let submitButton = document.getElementById('submitButton');
+submitButton.addEventListener('click', makeGrid);
 //create grid from input height and width
 //add event listener on cells to change background-color
 function makeGrid() {
@@ -24,3 +26,5 @@ function makeGrid() {
         };
     };
 };
+
+
