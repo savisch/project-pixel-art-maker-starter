@@ -7,7 +7,18 @@ colorPick.addEventListener('change', function(){
 });
 
 let submitButton = document.getElementById('submitButton');
-submitButton.addEventListener('click', makeGrid);
+submitButton.addEventListener('click', buttonAction);
+let count = 0;
+function buttonAction(){
+    count ++;
+    if(count === 1){
+        makeGrid()
+    }else{
+        document.getElementById('pixelCanvas').innerHTML = '';
+        makeGrid();
+    }
+}
+
 //create grid from input height and width
 //add event listener on cells to change background-color
 function makeGrid() {
@@ -23,8 +34,8 @@ function makeGrid() {
             cell.addEventListener('click', function(){
                 cell.style.backgroundColor = color;
             });
-        };
-    };
-};
+        }
+    }
+}
 
 
